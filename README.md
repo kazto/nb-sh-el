@@ -1,17 +1,35 @@
 # nb.sh.el
 
-Emacs内から[nb.sh](https://nb.sh)を呼び出すパッケージです。
+Emacs内から[nb.sh](https://nb.sh)を呼び出すEmacs Lispパッケージです。
 
 ## Shortcuts
 
-- C-c n Enter
-  - `nb`
-- C-c n a
-  - `nb add`
-- C-c n r
-  - `nb archive`
-- C-c n b
-  - `nb bookmark`
+prefix: `C-c n`
+
+| Shortcut key | Command        |
+| ------------ | -------------- |
+| C-c n RET    | `nb`           |
+| C-c n a      | `nb add`       |
+| C-c n b      | `nb bookmark`  |
+| C-c n c      | `nb copy`      |
+| C-c n d      | `nb delete`    |
+| C-c n e      | `nb edit`      |
+| C-c n f      | `nb folders`   |
+| C-c n g      | `nb git`       |
+| C-c n h      | `nb help`      |
+| C-c n i      | `nb import`    |
+| C-c n l      | `nb list`      |
+| C-c n m      | `nb move`      |
+| C-c n n      | `nb notebooks` |
+| C-c n o      | `nb open`      |
+| C-c n p      | `nb peek`      |
+| C-c n r      | `nb archive`   |
+| C-c n s      | `nb search`    |
+| C-c n S      | `nb sync`      |
+| C-c n t      | `nb todo`      |
+| C-c n u      | `nb use`       |
+| C-c n w      | `nb show`      |
+| C-c n x      | `nb export`    |
 
 
 
