@@ -2,6 +2,39 @@
 
 Emacs内から[nb.sh](https://nb.sh)を呼び出すEmacs Lispパッケージです。
 
+## Testing
+
+このパッケージには ERT (Emacs Lisp Regression Testing) を使用したテストスイートが含まれています。
+
+### テストの実行方法
+
+```bash
+# バッチモードでテストを実行
+make test
+
+# インタラクティブモードでテストを実行（デバッグ用）
+make test-interactive
+
+# バイトコンパイル
+make compile
+
+# コンパイル済みファイルのクリーンアップ
+make clean
+```
+
+### Emacs内でテストを実行
+
+```elisp
+;; テストファイルをロード
+(load-file "test/nb-test.el")
+
+;; 全テストを実行
+(ert-run-tests-interactively 't)
+
+;; 特定のテストを実行
+(ert "nb-test-get-id-at-line-basic")
+```
+
 ## Shortcuts
 
 prefix: `C-c n`

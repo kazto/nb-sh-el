@@ -1,0 +1,17 @@
+# Compiled Emacs Lisp files
+*.elc
+
+# Backup files
+*~
+\#*\#
+.\#*
+
+# Auto-save files
+.saves-*
+
+# Package build artifacts
+dist/
+*.tar
+
+# Test coverage
+.coverage/
